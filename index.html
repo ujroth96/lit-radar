@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lit Radar</title>
+<meta name="description" content="A personal radar for peer-reviewed research on transnational education, graduate business degrees, admissions and graduate learning.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Lit Radar">
+<meta name="theme-color" content="#7A1F33">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAFtElEQVR42u3dPXLbOhiFYZGTfcQzqlXF20idvcS1vZfUdxt25doz9kpyizvJ+DoUQ4kAiO/j85aZWD/A66NDAKKHQyd8//zl5wFheXh7Gnp4HQOBkUnwgcTIJPdAYmSSeyAyMok9EBmZxB7JjC0p7cxAZGRK65HMyJTWI5mRSeqByMhUQUYyI1Naj2RGJqlHMiOT1KPhQibG0r8hwJYpPZIZmaQeyYxMUuvQ2EeHls6ImNIjmZFJapUDuSuHdEbklJbQyJvQ0hnRU1pCI3eHBlIIrW4gQ+2Q0FA5gK6FVjeQpXZIaKgcAKGBBgz6MyQ00CmfDEE57l8fX6792bub26MRVDnCiUt0Qu9KYIIT+j/p/vlxuPv6bVOJ18jW+vkI3bnMvyd5hdRLpWopUo+vyUVhA5FrSrOlLB+f+9xr/fXvexc7fEJPSb00pedEjiBG9NdP6AtSek7qbCIQO3GHnpP63MRnmvQ9vMc5UuwULqkYUxN9d3N7zDbR595TT0uPEnpNUp+OL3v+GD73iyyho/L8ctxzp9xbWqfbKTyX0tZp95HW+RJ6omJ8TOm9soe0TiX03OSU2oTJeNGYSeoxi8j/m5SplMZsWv8xhoTuqxdOLeVJ6fwVZMwk85J1ZVLnriBhVzmmZL5E4JJHTdfK0MtKw9IxJfTGA7/mAFNpeXuXPLrU4YS+dsBLSb3Fx3FrqSJLHUroNQO9pnpcIvE1k1/78fckdVihrxLno9Sn45Qwi0WrOck9fOlg7XgTusHg/pb6NPsQXZ0v3vK8czSpx2gyF+H013k5Tomz1YTOPXfLDZEIy3ndJ3TpLnf/+njJf+/yUFPrQ/yR+nSojZXWA9nrxLU+xB9plaNroSNelGwtdq0K8v55eq4eYwSZcXmC1h6/XudnjDphWJbWe5uHLoWuXDWW3okoRVrXlLrHlB57lrniY88/x/NL6FN5LU/P9Sb1GGliSg782QR+zlHda0rdc/Xoah26VtVYc9S01jHTrT7xao1rL5Knv43BJROa8Vsumb8/2LXQNX7bS6UTqeNcIO7mb6wslfnu67fVAvd4HPTu5va4h7X9Ljp07XQuctT0cP0dTXuSu8exltAFE/JSyd9LXfp5Wotx//qY7o5Smyd0hdN0xR7vXEovEXnJ85Z6nExjnkroEgNR/PEa3tG05bHQ3sc9/CpHz1XjD97dK6/kwf+t7u2cadMl1/2ha23MNL63x5xo2TdGJHTtC8HXx5et7pXXMq2zLOml3CmssjEzIXWLDZeax0IzHstNc/fRrVYCWu0ittjCdvfRxOk89ZhbH1Sq+d4kdGLmLpa2PsAU5bt9Vjk6rS+TF2YbrXpcWof2iIS+QpRz4mbq04TeWRfP2KcJnTidF0nV0RcCpDShq6XfVtUDhF4vVfDvHGbDKkepj/yEX7CNyCdDUFnyv9xUHSpH+Opx//p46W19QehOpJ65cQ2pCR0TUhM6LOf+3MWzZWJCR7sI/JW2p+N1PwdCh0pqKV0dy3ZbVxFI6HASk5nQkhmE3phrdwDtHBIaIHSPKS2dCZ1GajKXx/HRykxtmhCZ0IDKAUIDhAYIDRAaIDQIDRAaIDRAaIDQIDRAaIDQAKEBQoPQAKEBQgOEBggNQgOEBggNEBogNAgNEBogNEBoEBogNEBogNAAoUFogNAAoQFCAwuEfnh7GgwDMvDw9jRIaKgcAKGBVkLr0cjQnyU0VA4ghNBqB6LXDQkNlQMII7Tagch1Q0Ijf+WQ0oiazhIa+7golNKImM6zCU1qRJNZ5cA+KoeURsR0XpTQpEYUmRdXDlIjgsw6NPbVoaU0IqXzxQlNavQs81WVg9ToVebD4XBYJef3z19+Gnb0IHKRi0JpjZ5kXi00qdGTzKsrhwqCXkQultDSGj05U01AaY0twq96ohIbLT/Fm1YEcpO4Npt1XnKTOJXQBCdwDf4F1xamDRfJ9DIAAAAASUVORK5CYII=">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a phone-first reading app. Sticky masthead, horizontal topic chips, a column of article cards, a bottom tab bar. Detail and editors open in a bottom sheet. */
+:root{
+  --bg:#F2F3F6; --surface:#FFFFFF; --fg:#171A21; --muted:#5F6676; --line:#D8DBE3; --chip:#E6E8EE;
+  --accent:#7A1F33; --accent-ink:#FFFFFF; --accent-soft:#F4E6EA;
+  --good:#1D6B47; --good-soft:#E3F1EA; --warn:#8F5600; --warn-soft:#FBEFD9; --info:#2B4C8C; --info-soft:#E4EAF6;
+  --display:'Newsreader', Georgia, 'Times New Roman', serif;
+  --body:'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --mono:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --radius:14px; --shadow:0 1px 2px rgba(20,24,40,.06), 0 6px 18px rgba(20,24,40,.05);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --bg:#0E1116; --surface:#171B22; --fg:#E7E9EF; --muted:#9BA3B3; --line:#2A303B; --chip:#222834;
+  --accent:#E48AA0; --accent-ink:#20070E; --accent-soft:#3A1A24;
+  --good:#7CCB9F; --good-soft:#153225; --warn:#F0B35B; --warn-soft:#3A2A0E; --info:#9DB6EA; --info-soft:#1C2A45;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.25); color-scheme:dark; } }
+:root[data-theme="dark"]{
+  --bg:#0E1116; --surface:#171B22; --fg:#E7E9EF; --muted:#9BA3B3; --line:#2A303B; --chip:#222834;
+  --accent:#E48AA0; --accent-ink:#20070E; --accent-soft:#3A1A24;
+  --good:#7CCB9F; --good-soft:#153225; --warn:#F0B35B; --warn-soft:#3A2A0E; --info:#9DB6EA; --info-soft:#1C2A45;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.25); color-scheme:dark; }
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.45;-webkit-text-size-adjust:100%;overflow-x:hidden}
+a{color:var(--accent)}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+input,select,textarea{font:inherit;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;width:100%;min-width:0}
+textarea{min-height:88px;resize:vertical}
+input:focus,select:focus,textarea:focus,button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+label{display:block;font-size:13px;color:var(--muted);margin:14px 0 6px;font-weight:500}
+label small{font-weight:400}
+.hint{font-size:12.5px;color:var(--muted);margin-top:6px;line-height:1.4}
+[hidden]{display:none!important}
+.clamp{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
+#app{min-height:100%;display:flex;flex-direction:column}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--surface);z-index:30}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line);
+  padding-block:10px 8px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.top-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.top-row > div{min-width:0}
+.brand{font-family:var(--display);font-weight:600;font-size:24px;letter-spacing:-.01em;line-height:1.1}
+.brand span{color:var(--accent)}
+.status{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:8px 14px;border-radius:999px;background:var(--chip);color:var(--fg);font-weight:500;font-size:13.5px;white-space:nowrap;border:1px solid transparent}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{background:transparent;border-color:var(--line)}
+.btn.small{padding:6px 10px;font-size:12.5px}
+.btn:disabled{opacity:.5;cursor:default}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:10px 0 2px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;padding:6px 12px;border-radius:999px;background:var(--chip);font-size:13px;font-weight:500;border:1px solid transparent;color:var(--fg)}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.chip .n{font-family:var(--mono);font-size:11px;opacity:.75;margin-left:4px}
+
+main{flex:1;padding-block:14px 120px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));max-width:720px;width:100%;margin:0 auto}
+.section{margin-bottom:22px}
+.section-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:6px 0 10px}
+.section-h h2{font-family:var(--display);font-weight:600;font-size:19px;margin:0;line-height:1.2;text-wrap:balance}
+.section-h .sub{font-family:var(--mono);font-size:11.5px;color:var(--muted);white-space:nowrap}
+.stack{display:flex;flex-direction:column;gap:12px}
+
+.card{background:var(--surface);border-radius:var(--radius);box-shadow:var(--shadow);padding:14px 14px 10px;min-width:0}
+.card-top{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-bottom:8px}
+.tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;padding:3px 7px;border-radius:6px;background:var(--chip);color:var(--muted)}
+.tag.topic{background:var(--accent-soft);color:var(--accent)}
+.tag.peer{background:var(--good-soft);color:var(--good)}
+.tag.oa{background:var(--info-soft);color:var(--info)}
+.tag.news{background:var(--warn-soft);color:var(--warn)}
+.tag.new{background:var(--accent);color:var(--accent-ink)}
+.card h3{font-family:var(--display);font-weight:500;font-size:18px;line-height:1.25;margin:0 0 6px;text-wrap:balance}
+.card h3 button{text-align:left;font:inherit;color:inherit}
+.meta{font-size:13px;color:var(--muted);margin-bottom:8px;line-height:1.4}
+.meta b{color:var(--fg);font-weight:500}
+.abs{margin:0;font-size:14px;color:var(--fg);line-height:1.5}
+.abs.empty{color:var(--muted);font-style:italic}
+.more{font-size:13px;color:var(--accent);font-weight:500;margin-top:4px}
+.actions{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px;padding-top:8px;border-top:1px solid var(--line)}
+.act{display:inline-flex;align-items:center;gap:5px;padding:7px 9px;border-radius:9px;font-size:13px;font-weight:500;color:var(--muted)}
+.act:active,.act:hover{background:var(--chip);color:var(--fg)}
+.act.on{color:var(--accent)}
+.act svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:16px;color:var(--muted);font-size:14px;line-height:1.5}
+.empty b{color:var(--fg);font-weight:500}
+.notice{background:var(--warn-soft);color:var(--warn);border-radius:12px;padding:12px 14px;font-size:13.5px;line-height:1.45}
+.notice.info{background:var(--info-soft);color:var(--info)}
+.notice a{color:inherit;font-weight:600}
+details.filtered{margin-top:10px}
+details.filtered summary{cursor:pointer;color:var(--muted);font-size:13px;font-weight:500;padding:8px 0}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.row > *{min-width:0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.list{display:flex;flex-direction:column;gap:8px}
+.item{background:var(--surface);border-radius:12px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;gap:10px;box-shadow:var(--shadow)}
+.item .t{font-weight:500;min-width:0}
+.item .s{font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.35}
+.item .t,.item .s{overflow-wrap:anywhere}
+.pill{font-family:var(--mono);font-size:11px;padding:3px 8px;border-radius:999px;background:var(--chip);color:var(--muted)}
+.seg{display:flex;background:var(--chip);border-radius:10px;padding:3px;gap:2px;margin-bottom:12px}
+.seg button{flex:1;padding:7px 6px;border-radius:8px;font-size:13px;font-weight:500;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--fg);box-shadow:var(--shadow)}
+.kv{font-family:var(--mono);font-size:12px;color:var(--muted)}
+h2.page{font-family:var(--display);font-weight:600;font-size:22px;margin:4px 0 12px;line-height:1.15}
+.card.settings{padding:14px 16px 16px}
+.card.settings h3{font-family:var(--body);font-size:15px;font-weight:600;margin:0 0 4px}
+.card.settings p{margin:0;font-size:13.5px;color:var(--muted)}
+.toggle{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;border-top:1px solid var(--line)}
+.toggle:first-of-type{border-top:0}
+.switch{width:44px;height:26px;border-radius:999px;background:var(--line);position:relative;flex:0 0 auto;transition:background .15s}
+.switch::after{content:"";position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.3);transition:transform .15s}
+.switch[aria-checked="true"]{background:var(--good)}
+.switch[aria-checked="true"]::after{transform:translateX(18px)}
+
+nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:25;background:var(--surface);border-top:1px solid var(--line);display:flex;justify-content:space-around;
+  padding-top:6px;padding-bottom:calc(6px + env(safe-area-inset-bottom,0px));padding-left:max(8px,env(safe-area-inset-left,0px));padding-right:max(8px,env(safe-area-inset-right,0px))}
+nav.tabs button{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10.5px;font-weight:500;color:var(--muted);padding:4px 0;border-radius:10px;max-width:120px}
+nav.tabs button[aria-current="page"]{color:var(--accent)}
+nav.tabs svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+.scrim{position:fixed;inset:0;background:rgba(10,12,18,.45);z-index:40;opacity:0;transition:opacity .2s}
+.scrim.show{opacity:1}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:41;background:var(--surface);border-radius:18px 18px 0 0;max-height:92%;display:flex;flex-direction:column;transform:translateY(100%);transition:transform .25s cubic-bezier(.2,.8,.2,1);box-shadow:0 -8px 30px rgba(0,0,0,.2)}
+.sheet.show{transform:translateY(0)}
+.sheet-h{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 16px 8px;border-bottom:1px solid var(--line)}
+.sheet-h .grab{position:absolute;top:6px;left:50%;width:36px;height:4px;border-radius:2px;background:var(--line);transform:translateX(-50%)}
+.sheet-h h2{font-family:var(--display);font-weight:600;font-size:17px;margin:6px 0 0;line-height:1.2}
+.sheet-b{overflow-y:auto;padding-block:14px calc(24px + env(safe-area-inset-bottom,0px));padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));-webkit-overflow-scrolling:touch}
+.sheet-b h1{font-family:var(--display);font-weight:500;font-size:22px;line-height:1.22;margin:0 0 8px;text-wrap:balance}
+.sheet-b .abs{font-size:15px;line-height:1.55}
+.authors{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.authors button{font-size:12.5px;padding:5px 9px;border-radius:999px;background:var(--chip);color:var(--fg)}
+.authors button.f{background:var(--good-soft);color:var(--good)}
+.cite{font-family:var(--mono);font-size:12px;background:var(--chip);padding:10px 12px;border-radius:10px;line-height:1.5;overflow-wrap:anywhere;user-select:all}
+.summary{background:var(--accent-soft);border-radius:12px;padding:12px 14px;font-size:14px;line-height:1.55;white-space:pre-wrap}
+
+#toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(20px);background:var(--fg);color:var(--bg);padding:10px 16px;border-radius:999px;font-size:13.5px;font-weight:500;opacity:0;transition:all .2s;z-index:60;max-width:90%;text-align:center;pointer-events:none}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.spin{display:inline-block;width:14px;height:14px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:sp .8s linear infinite;vertical-align:-2px}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+@media (min-width:720px){ .card h3{font-size:19px} }
+</style>
+</head>
+<body>
+<div id="app">
+  <header class="top">
+    <div class="top-row">
+      <div>
+        <div class="brand">Lit <span>Radar</span></div>
+        <div class="status" id="status">Ready</div>
+      </div>
+      <button class="btn primary" id="refreshBtn" data-action="refresh">Refresh</button>
+    </div>
+    <div class="chips" id="chips"></div>
+  </header>
+  <main id="view"></main>
+  <nav class="tabs" id="tabs">
+    <button data-view="feed" aria-current="page"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2"/></svg>Feed</button>
+    <button data-view="explore"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Explore</button>
+    <button data-view="library"><svg viewBox="0 0 24 24"><path d="M5 4h10a2 2 0 0 1 2 2v14l-4-3-4 3V6a2 2 0 0 0-2-2z"/><path d="M19 6v12"/></svg>Library</button>
+    <button data-view="authors"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>Authors</button>
+    <button data-view="settings"><svg viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></svg>Topics</button>
+  </nav>
+</div>
+<div class="scrim" id="scrim" hidden></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" hidden>
+  <div class="sheet-h"><div class="grab"></div><h2 id="sheetTitle"></h2><button class="btn small ghost" data-action="closeSheet">Close</button></div>
+  <div class="sheet-b" id="sheetBody"></div>
+</div>
+<div id="toast" role="status"></div>
+
+<script>
+'use strict';
+/* ---------- storage ---------- */
+const KEY='litradar.v1';
+const OA_FIELDS='id,doi,title,publication_date,publication_year,primary_location,authorships,abstract_inverted_index,cited_by_count,open_access,topics,type';
+const ERIC_FIELDS='id,title,author,publicationdateyear,peerreviewed,description,url,source,issn,publicationtype,descriptor';
+const uid=()=>Math.random().toString(36).slice(2,9);
+const today=()=>new Date().toISOString().slice(0,10);
+const daysAgo=n=>new Date(Date.now()-n*864e5).toISOString().slice(0,10);
+
+function defaultTopics(){ return [
+ {id:'tne',name:'Transnational education',kind:'scholar',enabled:true,scope:'ta',eric:true,fieldFilter:true,muteVenues:[],
+  description:'Cross-border delivery of higher education: international branch campuses, twinning, franchise and dual-degree arrangements, offshore and online delivery abroad, quality assurance and regulation of TNE, host-country policy (including India and Malaysia), and partnerships between universities across countries. Off-target: short-term study abroad or exchange, migration policy without an education-delivery angle, international K-12 schools, generic internationalisation-at-home papers.',
+  qOpenAlex:'"transnational education" OR "transnational higher education" OR "international branch campus" OR "branch campuses" OR "cross-border higher education" OR "offshore campus" OR "twinning programme" OR "joint degree" OR "dual degree"',
+  qEric:'"transnational education" OR "branch campus" OR "cross-border higher education" OR "twinning program"',
+  mute:[],offTarget:[]},
+ {id:'mba',name:'MBA & graduate business degrees',kind:'scholar',enabled:true,scope:'ta',eric:true,fieldFilter:true,muteVenues:['case studies','case journal','case research','teaching case'],
+  description:'Research on MBA, Executive MBA and specialised business master\'s degrees: programme design and curriculum, value and return on the degree, rankings and accreditation (AACSB, EQUIS, AMBA), career outcomes, student experience, and the business school as an institution. Off-target: undergraduate business programmes, corporate training with no degree, engineering or medical graduate programmes, papers that merely use MBA students as a convenient sample.',
+  qOpenAlex:'"MBA" OR "Master of Business Administration" OR "executive MBA" OR "EMBA" OR "graduate management education" OR "business school rankings" OR "business school accreditation"',
+  qEric:'"MBA" OR "Master of Business Administration" OR "executive MBA" OR "graduate management education"',
+  mute:[],offTarget:[]},
+ {id:'adm',name:'Graduate admissions',kind:'scholar',enabled:true,scope:'ta',eric:true,fieldFilter:true,muteVenues:[],
+  description:'Admissions to graduate and professional programmes, especially business and management: selection criteria and predictive validity, GMAT/GRE and test-optional policies, holistic review, interviews and essays, applicant decision-making and yield, diversity and equity in admissions, application fraud and credential verification. Off-target: undergraduate admissions, medical/dental/nursing admissions, K-12 school choice.',
+  qOpenAlex:'"graduate admissions" OR "MBA admissions" OR "business school admissions" OR "graduate school admission" OR "GMAT" OR "holistic admissions" OR "admissions criteria" OR "admission decisions"',
+  qEric:'"graduate admissions" OR "MBA admissions" OR "graduate school admission" OR "GMAT" OR "holistic admissions"',
+  mute:['medical school','dental school','nursing school','undergraduate admissions','hospital admission','admission control','long-term care','intensive care'],offTarget:[]},
+ {id:'learn',name:'Graduate learning in business',kind:'scholar',enabled:true,scope:'ta',eric:true,fieldFilter:true,muteVenues:['case studies','case journal','case research','teaching case'],
+  description:'How graduate business students learn: pedagogy in MBA and master\'s programmes, the case method, experiential and action learning, simulations, online and hybrid graduate business education, assessment and learning outcomes, executive education, adult and mid-career learners, AI in business education. Off-target: K-12, undergraduate-only studies, corporate HR training with no degree context.',
+  qOpenAlex:'"management education" OR "business school pedagogy" OR "MBA students" OR "case method teaching" OR "executive education" OR "graduate business education"',
+  qEric:'"management education" OR "business education" OR "case method" OR "executive education"',
+  mute:['self-management','nursing','patients','pre-service teachers','secondary school','K-12'],offTarget:[]},
+ {id:'news-in',name:'India TNE news',kind:'news',enabled:true,
+  description:'Business and policy news on transnational education in India: foreign university campuses (UGC regulations, GIFT City, Gurugram, Navi Mumbai), twinning and dual-degree approvals, Indian universities going abroad, NEP 2020 internationalisation.',
+  qNews:'("foreign university" OR "foreign universities" OR "transnational education" OR "branch campus" OR "GIFT City" OR "dual degree" OR UGC) India campus',
+  mute:[],offTarget:[]}
+];}
+
+function defaultState(){ return {
+  topics:defaultTopics(), authors:[], library:{}, seen:{}, verdicts:{}, summaries:{},
+  feed:{topics:{},authors:{items:[],at:0},lastRefreshAt:0,prevRefreshAt:0},
+  settings:{openalexKey:'',email:'',anthropicKey:'',model:'claude-haiku-4-5',relevance:false,proxyUrl:'',lookbackDays:14,perTopic:25,englishOnly:true},
+  ui:{view:'feed',filter:'all',libTab:'kept'}
+};}
+let S=load();
+function load(){ try{ const raw=localStorage.getItem(KEY); if(!raw) return defaultState(); const s=JSON.parse(raw); const d=defaultState(); return Object.assign(d,s,{settings:Object.assign(d.settings,s.settings||{}),feed:Object.assign(d.feed,s.feed||{}),ui:Object.assign(d.ui,s.ui||{})}); }catch(e){ return defaultState(); } }
+function save(){ try{ localStorage.setItem(KEY,JSON.stringify(S)); }catch(e){ toast('Could not save (storage full or blocked)'); } }
+
+/* ---------- helpers ---------- */
+const $=s=>document.querySelector(s);
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let toastT; function toast(m,ms=2200){ const t=$('#toast'); t.textContent=m; t.classList.add('show'); clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove('show'),ms); }
+function setStatus(m,busy){ $('#status').innerHTML=(busy?'<span class="spin"></span> ':'')+esc(m); $('#refreshBtn').disabled=!!busy; }
+function rel(ts){ if(!ts) return 'never'; const d=(Date.now()-ts)/6e4; if(d<1) return 'just now'; if(d<60) return Math.round(d)+' min ago'; if(d<1440) return Math.round(d/60)+' h ago'; return Math.round(d/1440)+' d ago'; }
+function invToText(inv){ if(!inv) return ''; const w=[]; for(const k in inv) for(const p of inv[k]) w[p]=k; return w.filter(Boolean).join(' '); }
+function topicById(id){ return S.topics.find(t=>t.id===id); }
+function fmtAuthors(a,max=3){ if(!a||!a.length) return 'Unknown authors'; const n=a.map(x=>x.name).filter(Boolean); return n.slice(0,max).join(', ')+(n.length>max?' et al.':''); }
+function apa(w){ const names=(w.authors||[]).map(a=>{ const n=(a.name||'').trim(); if(!n) return ''; let last,first; if(n.includes(',')){ [last,first]=n.split(',').map(s=>s.trim()); } else { const parts=n.split(/\s+/); if(parts.length<2) return n; last=parts.pop(); first=parts.join(' '); } const ini=(first||'').split(/[\s-]+/).filter(Boolean).map(p=>p[0].toUpperCase()+'.').join(' '); return ini?last+', '+ini:last; }).filter(Boolean);
+  let au=names.length>20?names.slice(0,19).join(', ')+', ... '+names[names.length-1]:names.length>1?names.slice(0,-1).join(', ')+', & '+names[names.length-1]:names[0]||''; const doi=w.doi?' https://doi.org/'+w.doi:(w.url?' '+w.url:''); return `${esc(au)} (${esc(w.year||'n.d.')}). ${esc(w.title)}. ${w.venue?'<i>'+esc(w.venue)+'</i>.':''}${esc(doi)}`; }
+function textOf(w){ return ((w.title||'')+' '+(w.abstract||'')).toLowerCase(); }
+function muted(w,topic){ if(!topic) return false; const t=textOf(w); if((topic.mute||[]).some(m=>m&&t.includes(m.toLowerCase()))) return true; const v=(w.venue||'').toLowerCase(); return (topic.muteVenues||[]).some(m=>m&&v.includes(m.toLowerCase())); }
+function libStatus(key){ const e=S.library[key]; return e?e.status:null; }
+async function copy(text){ try{ await navigator.clipboard.writeText(text); toast('Copied'); }catch(e){ const ta=document.createElement('textarea'); ta.value=text; document.body.appendChild(ta); ta.select(); try{document.execCommand('copy'); toast('Copied');}catch(_){toast('Select and copy the text manually');} ta.remove(); } }
+function withTimeout(url,opts={},ms=20000){ const c=new AbortController(); const t=setTimeout(()=>c.abort(),ms); return fetch(url,Object.assign({signal:c.signal},opts)).finally(()=>clearTimeout(t)); }
+
+/* ---------- sources ---------- */
+function fromOpenAlex(w){ const doi=w.doi?w.doi.replace(/^https?:\/\/doi\.org\//i,'').toLowerCase():''; const src=w.primary_location&&w.primary_location.source; const oaid=(w.id||'').replace('https://openalex.org/','');
+  return {key:doi?'doi:'+doi:'oa:'+oaid,source:'openalex',id:oaid,doi,title:w.title||'(untitled)',
+   authors:(w.authorships||[]).slice(0,15).map(a=>({name:a.author&&a.author.display_name||'',id:(a.author&&a.author.id||'').replace('https://openalex.org/',''),inst:a.institutions&&a.institutions[0]&&a.institutions[0].display_name||''})),
+   year:w.publication_year||(w.publication_date||'').slice(0,4),date:w.publication_date||'',venue:src?src.display_name:'',journal:!!(src&&src.type==='journal'&&w.type==='article'),
+   abstract:invToText(w.abstract_inverted_index),citedBy:w.cited_by_count||0,oaUrl:w.open_access&&w.open_access.oa_url||'',url:doi?'https://doi.org/'+doi:'https://openalex.org/'+oaid,
+   topics:(w.topics||[]).slice(0,3).map(t=>t.display_name)}; }
+function fromEric(d){ return {key:'eric:'+d.id,source:'eric',id:d.id,doi:'',title:d.title||'(untitled)',authors:(d.author||[]).map(n=>({name:n,id:'',inst:''})),year:String(d.publicationdateyear||''),date:d.publicationdateyear?String(d.publicationdateyear):'',
+   venue:d.source||'',journal:false,peerEric:d.peerreviewed==='T',abstract:d.description||'',citedBy:null,oaUrl:'',url:d.url||('https://eric.ed.gov/?id='+d.id),topics:(d.descriptor||[]).slice(0,3)}; }
+function fromNews(n){ const key='news:'+(n.link||n.title).slice(0,180); return {key,source:'news',id:key,doi:'',title:n.title||'(untitled)',authors:[],year:(n.date?new Date(n.date):new Date()).getFullYear(),date:n.date?new Date(n.date).toISOString().slice(0,10):'',venue:n.source||'',journal:false,abstract:n.snippet||'',citedBy:null,oaUrl:'',url:n.link||'',topics:[]}; }
+
+function oaUrl(path,params){ const p=new URLSearchParams(params); if(S.settings.openalexKey) p.set('api_key',S.settings.openalexKey); if(S.settings.email) p.set('mailto',S.settings.email); return 'https://api.openalex.org/'+path+'?'+p.toString(); }
+let oaLast=0; const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+async function oaFetch(path,params){ // OpenAlex limits broad boolean searches to 1 request/s without a key, so space calls out and retry once on 429
+  for(let attempt=0;attempt<2;attempt++){ const gap=(S.settings.openalexKey?250:1100)-(Date.now()-oaLast); if(gap>0) await sleep(gap); oaLast=Date.now(); const r=await withTimeout(oaUrl(path,params)); if(r.ok) return r.json();
+    let msg='OpenAlex '+r.status; try{ const j=await r.json(); msg=(j.message||j.error||msg); }catch(e){} if(r.status===429&&attempt===0){ await sleep(1600); continue; } if(r.status===429) msg='OpenAlex rate limit: '+msg.split('.')[0]+'. A free API key removes this.'; throw new Error(msg); } }
+async function searchOpenAlex(topic,{from,to,sort='publication_date:desc',page=1,perPage=25,query}={}){ const q=query||topic.qOpenAlex; if(!q) return {items:[],count:0}; const filters=['type:article','primary_location.source.type:journal']; if(from) filters.push('from_publication_date:'+from); if(to) filters.push('to_publication_date:'+to); if(!topic||topic.fieldFilter!==false) filters.push('primary_topic.field.id:33|14'); if(S.settings.englishOnly!==false) filters.push('language:en');
+  const params={filter:filters.join(','),sort,'per-page':perPage,page,select:OA_FIELDS}; params[(topic&&topic.scope==='full')?'search':'search.title_abstract_keywords']=q; const j=await oaFetch('works',params); return {items:(j.results||[]).map(fromOpenAlex),count:j.meta&&j.meta.count||0}; }
+async function searchEric(topic,{yearFrom,yearTo,rows=25,start=0,query}={}){ const q=query||topic.qEric; if(!q) return {items:[],count:0}; const y1=yearFrom||1966,y2=yearTo||new Date().getFullYear()+1; const search=`(${q}) AND peerreviewed:T AND publicationdateyear:[${y1} TO ${y2}]`;
+  const u='https://api.ies.ed.gov/eric/?search='+encodeURIComponent(search)+'&rows='+rows+'&start='+start+'&format=json&fields='+ERIC_FIELDS+'&sort=publicationdateyear%20desc'; const r=await withTimeout(u); if(!r.ok) throw new Error('ERIC '+r.status); const j=await r.json(); return {items:(j.response&&j.response.docs||[]).map(fromEric),count:j.response&&j.response.numFound||0}; }
+async function authorWorks(authorId,perPage=10){ const j=await oaFetch('works',{filter:'authorships.author.id:'+authorId,sort:'publication_date:desc','per-page':perPage,select:OA_FIELDS}); return (j.results||[]).map(fromOpenAlex); }
+async function searchAuthors(name){ const j=await oaFetch('authors',{search:name,'per-page':8,select:'id,display_name,last_known_institutions,works_count,cited_by_count'}); return (j.results||[]).map(a=>({id:(a.id||'').replace('https://openalex.org/',''),name:a.display_name,inst:a.last_known_institutions&&a.last_known_institutions[0]&&a.last_known_institutions[0].display_name||'',works:a.works_count,cites:a.cited_by_count})); }
+async function fetchNews(topic){ const base=S.settings.proxyUrl.replace(/\/$/,''); if(!base) throw new Error('No news relay configured'); const r=await withTimeout(base+'/?q='+encodeURIComponent(topic.qNews||'')+'&hl=en-IN&gl=IN&ceid=IN:en'); if(!r.ok) throw new Error('News relay '+r.status); const j=await r.json(); return (j.items||[]).map(fromNews); }
+async function unpaywall(doi){ if(!S.settings.email) throw new Error('Add your email in Topics & settings (Unpaywall asks for one).'); const r=await withTimeout('https://api.unpaywall.org/v2/'+encodeURIComponent(doi)+'?email='+encodeURIComponent(S.settings.email)); if(!r.ok) throw new Error('Unpaywall '+r.status); const j=await r.json(); const loc=j.best_oa_location; return loc?(loc.url_for_pdf||loc.url):''; }
+
+/* ---------- Claude (optional API key) ---------- */
+async function claude(prompt,{system,maxTokens=1200}={}){ const r=await withTimeout('https://api.anthropic.com/v1/messages',{method:'POST',headers:{'content-type':'application/json','x-api-key':S.settings.anthropicKey,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},body:JSON.stringify({model:S.settings.model||'claude-haiku-4-5',max_tokens:maxTokens,system,messages:[{role:'user',content:prompt}]})},60000);
+  if(!r.ok){ const t=await r.text(); throw new Error('Claude API '+r.status+': '+t.slice(0,160)); } const j=await r.json(); return (j.content||[]).map(c=>c.text||'').join(''); }
+function summaryPrompt(w,topic){ return `Summarize this ${w.source==='news'?'news article':'peer-reviewed article'} for a PhD student researching ${topic?topic.name.toLowerCase():'business education'} (also Director of Admissions at a business school). Use these headings, each 1-3 sentences: Research question · Method and data · Key findings · Why it matters for ${topic?topic.name.toLowerCase():'this field'} · Limitations. Be concrete; do not pad.\n\nTitle: ${w.title}\nAuthors: ${fmtAuthors(w.authors,8)}\nVenue/year: ${w.venue||''} ${w.year||''}\nLink: ${w.url}\n\nAbstract: ${w.abstract||'(no abstract available; summarize from the title and what you know of the venue, and say so)'}`; }
+async function relevancePass(topic,items){ if(!S.settings.anthropicKey||!S.settings.relevance||!items.length) return; const batch=items.slice(0,30); const ex=(topic.offTarget||[]).slice(-12).map(o=>'- '+o.title).join('\n');
+  const prompt=`You are screening search results for a research-alert feed.\nTOPIC: ${topic.name}\nWHAT BELONGS (and what does not): ${topic.description}\n${ex?'EXAMPLES THE USER FLAGGED AS OFF-TARGET:\n'+ex+'\n':''}\nFor each candidate decide if it belongs in this topic's feed. Return ONLY a JSON array of objects {"i":number,"ok":boolean,"why":"<=12 words"}.\n\nCANDIDATES:\n`+batch.map((w,i)=>`${i}. ${w.title}\n   ${(w.abstract||'').slice(0,350)}`).join('\n');
+  const out=await claude(prompt,{maxTokens:1500}); const m=out.match(/\[[\s\S]*\]/); if(!m) return; let arr; try{arr=JSON.parse(m[0]);}catch(e){return;} for(const v of arr){ const w=batch[v.i]; if(w) S.verdicts[w.key]={topic:topic.id,ok:!!v.ok,why:v.why||'',at:Date.now()}; } }
+
+/* ---------- refresh ---------- */
+let refreshing=false;
+async function refresh(){ if(refreshing) return; refreshing=true; S.feed.prevRefreshAt=S.feed.lastRefreshAt||0; const start=Date.now(); const errors=[]; let n=0;
+  const topics=S.topics.filter(t=>t.enabled); const from=daysAgo(S.settings.lookbackDays||14); const yearFrom=Number(from.slice(0,4));
+  for(const t of topics){ setStatus('Checking '+t.name+'…',true); try{ let items=[];
+      if(t.kind==='news'){ if(S.settings.proxyUrl){ items=await fetchNews(t); } else { S.feed.topics[t.id]={items:[],at:Date.now(),needsRelay:true}; continue; } }
+      else { const [oa,er]=await Promise.all([searchOpenAlex(t,{from,perPage:S.settings.perTopic||25}).catch(e=>{errors.push(t.name+': '+e.message);return {items:[]};}), t.eric?searchEric(t,{yearFrom,rows:20}).catch(e=>{errors.push('ERIC: '+e.message);return {items:[]};}):{items:[]}]); items=dedupe([...oa.items,...er.items]); }
+      const fresh=items.filter(w=>!S.seen[w.key]); for(const w of fresh){ S.seen[w.key]=start; } n+=fresh.length;
+      if(t.kind!=='news'){ try{ await relevancePass(t,fresh.filter(w=>!muted(w,t))); }catch(e){ errors.push('Relevance check: '+e.message); } }
+      S.feed.topics[t.id]={items,at:Date.now()}; save(); render(); }catch(e){ errors.push(t.name+': '+e.message); } }
+  if(S.authors.length){ setStatus('Checking followed authors…',true); const all=[]; for(const a of S.authors){ try{ const ws=await authorWorks(a.id,8); for(const w of ws){ w.byAuthor=a.id; if(!S.seen[w.key]){S.seen[w.key]=start;n++;} all.push(w);} }catch(e){ errors.push(a.name+': '+e.message); } } S.feed.authors={items:dedupe(all),at:Date.now()}; }
+  S.feed.lastRefreshAt=start; save(); refreshing=false; setStatus('Updated '+rel(start)+(n?' · '+n+' new':'')); render(); if(errors.length) toast(errors[0],4000); }
+function dedupe(items){ const m=new Map(); for(const w of items){ if(!m.has(w.key)) m.set(w.key,w); } return [...m.values()]; }
+
+/* ---------- library actions ---------- */
+function setLib(w,status,topicId){ if(status===null){ delete S.library[w.key]; } else { const e=S.library[w.key]||{at:Date.now(),topicIds:[]}; e.status=status; e.work=w; e.at=Date.now(); if(topicId&&!e.topicIds.includes(topicId)) e.topicIds.push(topicId); S.library[w.key]=e; } save(); }
+function findWork(key){ for(const id in S.feed.topics){ const w=(S.feed.topics[id].items||[]).find(x=>x.key===key); if(w) return w; } const a=(S.feed.authors.items||[]).find(x=>x.key===key); if(a) return a; const e=explore.items.find(x=>x.key===key); if(e) return e; const l=S.library[key]; return l?l.work:null; }
+function workTopic(w){ for(const id in S.feed.topics){ if((S.feed.topics[id].items||[]).some(x=>x.key===w.key)) return topicById(id); } const l=S.library[w.key]; if(l&&l.topicIds&&l.topicIds[0]) return topicById(l.topicIds[0]); if(explore.topicId) return topicById(explore.topicId); return null; }
+function shareText(w){ const by=fmtAuthors(w.authors,3); return `${w.title}\n${by}${w.year?' ('+w.year+')':''}${w.venue?' · '+w.venue:''}\n${w.doi?'https://doi.org/'+w.doi:w.url}`; }
+async function share(w){ const text=shareText(w); if(navigator.share){ try{ await navigator.share({title:w.title,text}); return; }catch(e){ if(e&&e.name==='AbortError') return; } } openSheet('Share',`<p class="hint" style="margin-top:0">Your browser didn't offer the share sheet, so pick a route:</p><div class="stack"><a class="btn primary" href="https://wa.me/?text=${encodeURIComponent(text)}" target="_blank" rel="noopener">Send via WhatsApp</a>${S.settings.email?`<a class="btn" href="mailto:${encodeURIComponent(S.settings.email)}?subject=${encodeURIComponent(w.title)}&body=${encodeURIComponent(text)}">Email to ${esc(S.settings.email)}</a>`:''}<button class="btn ghost" data-action="copyText" data-text="${esc(text)}">Copy the text</button></div>`); }
+
+/* ---------- rendering ---------- */
+const ICON={keep:'<svg viewBox="0 0 24 24"><path d="M6 4h12v17l-6-4-6 4z"/></svg>',x:'<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>',flag:'<svg viewBox="0 0 24 24"><path d="M5 21V4h11l-1.5 4L16 12H5"/></svg>',share:'<svg viewBox="0 0 24 24"><path d="M12 3v12M8 7l4-4 4 4M5 13v7h14v-7"/></svg>',spark:'<svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 17l.8 2.2L22 20l-2.2.8L19 23l-.8-2.2L16 20l2.2-.8z"/></svg>',open:'<svg viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M19 14v6H5V6h6"/></svg>',pdf:'<svg viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 13h6M9 17h6"/></svg>',undo:'<svg viewBox="0 0 24 24"><path d="M9 14 4 9l5-5"/><path d="M4 9h11a5 5 0 0 1 0 10h-3"/></svg>'};
+function badges(w,topic,isNew){ let b=''; if(topic) b+=`<span class="tag topic">${esc(topic.name)}</span>`; if(w.source==='news') b+='<span class="tag news">News</span>'; else if(w.journal) b+='<span class="tag peer">Journal article</span>'; else if(w.peerEric) b+='<span class="tag peer">ERIC · peer reviewed</span>'; if(w.oaUrl) b+='<span class="tag oa">Open access</span>'; if(w.source==='eric') b+='<span class="tag">ERIC</span>'; if(isNew) b+='<span class="tag new">New</span>'; return b; }
+function card(w,topic,opts={}){ const st=libStatus(w.key); const isNew=opts.feed&&S.seen[w.key]&&S.seen[w.key]>(S.feed.prevRefreshAt||0)&&S.feed.prevRefreshAt>0; const v=S.verdicts[w.key];
+  const meta=`${esc(fmtAuthors(w.authors))}${w.venue?' · <b>'+esc(w.venue)+'</b>':''}${w.date?' · '+esc(w.date):w.year?' · '+esc(w.year):''}${w.citedBy!=null?' · '+w.citedBy+' citations':''}`;
+  const abs=w.abstract?`<p class="abs clamp" id="abs-${esc(w.key)}">${esc(w.abstract)}</p><button class="more" data-action="detail" data-key="${esc(w.key)}">Read more</button>`:`<p class="abs empty">No abstract in the index. Open the article for details.</p>`;
+  const acts=opts.library?`<button class="act ${st==='kept'?'on':''}" data-action="keep" data-key="${esc(w.key)}">${ICON.keep}${st==='kept'?'Kept':'Keep'}</button><button class="act" data-action="unlib" data-key="${esc(w.key)}">${ICON.undo}${st==='kept'?'Remove':'Back to feed'}</button>`
+    :`<button class="act" data-action="keep" data-key="${esc(w.key)}">${ICON.keep}Keep</button><button class="act" data-action="dismiss" data-key="${esc(w.key)}">${ICON.x}Dismiss</button><button class="act" data-action="offtarget" data-key="${esc(w.key)}">${ICON.flag}Off-target</button>`;
+  return `<article class="card" data-key="${esc(w.key)}"><div class="card-top">${badges(w,topic,isNew)}${v&&!v.ok?'<span class="tag">Filtered: '+esc(v.why)+'</span>':''}</div><h3><button data-action="detail" data-key="${esc(w.key)}">${esc(w.title)}</button></h3><div class="meta">${meta}</div>${abs}<div class="actions">${acts}<button class="act" data-action="share" data-key="${esc(w.key)}">${ICON.share}Share</button><button class="act" data-action="summarize" data-key="${esc(w.key)}">${ICON.spark}Summarize</button><a class="act" href="${esc(w.url)}" target="_blank" rel="noopener">${ICON.open}Open</a></div></article>`; }
+
+function render(){ renderChips(); const v=S.ui.view; document.querySelectorAll('#tabs button').forEach(b=>b.setAttribute('aria-current',b.dataset.view===v?'page':'false')); const main=$('#view'); main.innerHTML=({feed:renderFeed,explore:renderExplore,library:renderLibrary,authors:renderAuthors,settings:renderSettings})[v](); }
+function renderChips(){ const c=$('#chips'); if(S.ui.view!=='feed'){ c.innerHTML=''; c.hidden=true; return; } c.hidden=false; const counts=feedCounts(); const chip=(id,label,n)=>`<button class="chip" aria-pressed="${S.ui.filter===id}" data-action="filter" data-id="${id}">${esc(label)}${n!=null?'<span class="n">'+n+'</span>':''}</button>`; let h=chip('all','All',counts.all); for(const t of S.topics.filter(t=>t.enabled)) h+=chip(t.id,t.name,counts[t.id]||0); if(S.authors.length) h+=chip('authors','Followed authors',counts.authors); c.innerHTML=h; }
+function visibleFeed(topic){ const f=S.feed.topics[topic.id]; if(!f) return {show:[],hidden:[],mutedN:0}; const show=[],hidden=[]; let mutedN=0; for(const w of f.items||[]){ if(libStatus(w.key)) continue; if(muted(w,topic)){mutedN++;continue;} const v=S.verdicts[w.key]; if(v&&!v.ok) hidden.push(w); else show.push(w); } show.sort((a,b)=>(b.date||b.year||'').localeCompare(a.date||a.year||'')); return {show,hidden,mutedN}; }
+function feedCounts(){ const c={all:0,authors:0}; for(const t of S.topics.filter(t=>t.enabled)){ const n=visibleFeed(t).show.length; c[t.id]=n; c.all+=n; } c.authors=(S.feed.authors.items||[]).filter(w=>!libStatus(w.key)).length; c.all+=c.authors; return c; }
+function renderFeed(){ const topics=S.topics.filter(t=>t.enabled&&(S.ui.filter==='all'||S.ui.filter===t.id)); let h=''; if(!S.feed.lastRefreshAt) h+=`<div class="notice info" style="margin-bottom:14px">Welcome. Tap <b>Refresh</b> to pull the last ${S.settings.lookbackDays} days of journal articles for each topic. Use <b>Explore</b> to go back years. Nothing leaves this device except the searches themselves.</div>`;
+  for(const t of topics){ const f=S.feed.topics[t.id]; const {show,hidden,mutedN}=visibleFeed(t); h+=`<section class="section"><div class="section-h"><h2>${esc(t.name)}</h2><span class="sub">${f?esc(rel(f.at)):'not checked'}</span></div>`;
+    if(t.kind==='news'&&f&&f.needsRelay) h+=`<div class="notice">The news lane needs the small relay function to be hosted first. Add its URL under Topics & settings → News relay, then refresh.</div>`;
+    else if(!f) h+=`<div class="empty">Not checked yet.</div>`;
+    else if(!show.length) h+=`<div class="empty"><b>Nothing new on ${esc(t.name)}</b> in the last ${S.settings.lookbackDays} days${mutedN?' ('+mutedN+' hidden by mute words)':''}${hidden.length?' ('+hidden.length+' filtered as off-target)':''}. Quiet weeks are normal for a specialised topic. <button class="more" data-action="exploreTopic" data-id="${t.id}">Search back in time →</button></div>`;
+    else h+=`<div class="stack">${show.map(w=>card(w,t,{feed:true})).join('')}</div>`;
+    if(hidden.length) h+=`<details class="filtered"><summary>${hidden.length} filtered out by the relevance check — show</summary><div class="stack">${hidden.map(w=>card(w,t,{feed:true})).join('')}</div></details>`;
+    if(f&&mutedN&&show.length) h+=`<div class="hint">${mutedN} hidden by mute words or muted journals.</div>`;
+    h+='</section>'; }
+  if(S.authors.length&&(S.ui.filter==='all'||S.ui.filter==='authors')){ const items=(S.feed.authors.items||[]).filter(w=>!libStatus(w.key)); h+=`<section class="section"><div class="section-h"><h2>Followed authors</h2><span class="sub">${esc(rel(S.feed.authors.at))}</span></div>${items.length?`<div class="stack">${items.map(w=>{const a=S.authors.find(x=>x.id===w.byAuthor);return card(w,a?{name:a.name}:null,{feed:true});}).join('')}</div>`:'<div class="empty">Nothing from your followed authors yet. Refresh to check.</div>'}</section>`; }
+  if(!topics.length&&!S.authors.length) h+='<div class="empty">No topics enabled. Add one under Topics.</div>'; return h; }
+
+/* ---------- explore (backfill) ---------- */
+const explore={topicId:'',query:'',source:'openalex',from:'2015',to:'',sort:'cited_by_count:desc',page:1,items:[],count:0,busy:false,done:false};
+function renderExplore(){ const yr=new Date().getFullYear(); const tops=S.topics.filter(t=>t.kind==='scholar'); if(!explore.topicId&&tops.length) explore.topicId=tops[0].id;
+  return `<h2 class="page">Explore back in time</h2><div class="card settings"><label>Topic</label><select id="exTopic">${tops.map(t=>`<option value="${t.id}" ${explore.topicId===t.id?'selected':''}>${esc(t.name)}</option>`).join('')}<option value="" ${explore.topicId===''?'selected':''}>Custom query</option></select>
+  <label>Query <small>(leave blank to use the topic's saved query)</small></label><input id="exQuery" value="${esc(explore.query)}" placeholder='e.g. "branch campus" AND Malaysia'>
+  <div class="grid2"><div><label>From year</label><input id="exFrom" inputmode="numeric" value="${esc(explore.from)}"></div><div><label>To year</label><input id="exTo" inputmode="numeric" value="${esc(explore.to)}" placeholder="${yr}"></div></div>
+  <div class="grid2"><div><label>Source</label><select id="exSource"><option value="openalex" ${explore.source==='openalex'?'selected':''}>OpenAlex journals</option><option value="eric" ${explore.source==='eric'?'selected':''}>ERIC (peer reviewed)</option></select></div><div><label>Order</label><select id="exSort"><option value="cited_by_count:desc" ${explore.sort==='cited_by_count:desc'?'selected':''}>Most cited</option><option value="publication_date:desc" ${explore.sort==='publication_date:desc'?'selected':''}>Newest</option><option value="relevance_score:desc" ${explore.sort==='relevance_score:desc'?'selected':''}>Best match</option></select></div></div>
+  <div class="row" style="margin-top:14px"><button class="btn primary" data-action="exSearch" ${explore.busy?'disabled':''}>${explore.busy?'<span class="spin"></span> Searching':'Search'}</button>${explore.count?`<span class="kv">${explore.count.toLocaleString()} results</span>`:''}</div></div>
+  <div class="stack" style="margin-top:14px">${explore.items.map(w=>card(w,topicById(explore.topicId))).join('')}</div>${explore.items.length&&!explore.done?`<div style="text-align:center;margin-top:14px"><button class="btn" data-action="exMore" ${explore.busy?'disabled':''}>Load more</button></div>`:''}`; }
+function readExploreForm(){ explore.topicId=$('#exTopic').value; explore.query=$('#exQuery').value.trim(); explore.from=$('#exFrom').value.trim(); explore.to=$('#exTo').value.trim(); explore.source=$('#exSource').value; explore.sort=$('#exSort').value; }
+async function exploreSearch(more){ if(explore.busy) return; if(!more){ readExploreForm(); explore.page=1; explore.items=[]; explore.count=0; explore.done=false; } else explore.page++; explore.busy=true; render();
+  try{ const t=topicById(explore.topicId)||{scope:'ta',qOpenAlex:'',qEric:''}; const q=explore.query||(explore.source==='eric'?t.qEric:t.qOpenAlex); if(!q){ toast('Enter a query'); explore.busy=false; render(); return; }
+    let res; if(explore.source==='eric'){ res=await searchEric(t,{query:q,yearFrom:explore.from||1966,yearTo:explore.to||undefined,rows:25,start:(explore.page-1)*25}); } else { res=await searchOpenAlex(t,{query:q,from:explore.from?explore.from+'-01-01':'',to:explore.to?explore.to+'-12-31':'',sort:explore.sort,page:explore.page,perPage:25}); }
+    explore.items=dedupe([...explore.items,...res.items]); explore.count=res.count; explore.done=res.items.length<25; if(!res.items.length&&!more) toast('No results for that query'); }
+  catch(e){ toast(e.message,4000); } explore.busy=false; render(); }
+
+/* ---------- library ---------- */
+function renderLibrary(){ const tab=S.ui.libTab; const entries=Object.values(S.library).filter(e=>e.status===tab).sort((a,b)=>b.at-a.at); const n=s=>Object.values(S.library).filter(e=>e.status===s).length;
+  return `<h2 class="page">Library</h2><div class="seg"><button aria-pressed="${tab==='kept'}" data-action="libTab" data-id="kept">Kept (${n('kept')})</button><button aria-pressed="${tab==='dismissed'}" data-action="libTab" data-id="dismissed">Dismissed (${n('dismissed')})</button><button aria-pressed="${tab==='offtopic'}" data-action="libTab" data-id="offtopic">Off-target (${n('offtopic')})</button></div>
+  ${tab==='kept'&&entries.length?`<div class="row" style="margin-bottom:12px"><button class="btn small" data-action="copyRefs">Copy all as APA references</button><button class="btn small ghost" data-action="exportLib">Export library (JSON)</button></div>`:''}
+  ${entries.length?`<div class="stack">${entries.map(e=>card(e.work,topicById(e.topicIds&&e.topicIds[0]),{library:true})).join('')}</div>`:`<div class="empty">${tab==='kept'?'Articles you keep land here, with their abstracts and citations, even when they drop out of the feed.':tab==='dismissed'?'Dismissed articles are hidden from the feed but kept here in case you change your mind.':'Articles you flagged as off-target. Each one teaches the relevance filter what to exclude for that topic.'}</div>`}`; }
+
+/* ---------- authors ---------- */
+const authorUI={q:'',results:[],busy:false};
+function renderAuthors(){ const kept=Object.values(S.library).filter(e=>e.status==='kept'); const freq={}; for(const e of kept) for(const a of e.work.authors||[]) if(a.id&&!S.authors.some(x=>x.id===a.id)){ freq[a.id]=freq[a.id]||{n:0,name:a.name,inst:a.inst}; freq[a.id].n++; } const sugg=Object.entries(freq).filter(([,v])=>v.n>=2).sort((a,b)=>b[1].n-a[1].n).slice(0,6);
+  return `<h2 class="page">Authors you follow</h2><div class="card settings"><label style="margin-top:0">Find an author (OpenAlex)</label><div class="row"><input id="auQ" value="${esc(authorUI.q)}" placeholder="e.g. Jane Knight" style="flex:1"><button class="btn primary" data-action="auSearch" ${authorUI.busy?'disabled':''}>${authorUI.busy?'<span class="spin"></span>':'Search'}</button></div>
+  ${authorUI.results.length?`<div class="list" style="margin-top:12px">${authorUI.results.map(a=>`<div class="item"><div><div class="t">${esc(a.name)}</div><div class="s">${esc(a.inst||'Institution unknown')} · ${a.works} works · ${a.cites} citations</div></div>${S.authors.some(x=>x.id===a.id)?'<span class="pill">Following</span>':`<button class="btn small" data-action="follow" data-id="${esc(a.id)}" data-name="${esc(a.name)}" data-inst="${esc(a.inst)}">Follow</button>`}</div>`).join('')}</div>`:''}
+  <p class="hint">Names collide, so check the institution and work count before following. You can also follow an author from any article's detail view.</p></div>
+  <div class="section" style="margin-top:18px"><div class="section-h"><h2>Following (${S.authors.length})</h2></div>${S.authors.length?`<div class="list">${S.authors.map(a=>`<div class="item"><div><div class="t">${esc(a.name)}</div><div class="s">${esc(a.inst||'')}</div></div><button class="btn small ghost" data-action="unfollow" data-id="${esc(a.id)}">Unfollow</button></div>`).join('')}</div>`:'<div class="empty">Follow an author and their newest papers appear in the feed under <b>Followed authors</b>.</div>'}</div>
+  ${sugg.length?`<div class="section"><div class="section-h"><h2>Appearing often in what you keep</h2></div><div class="list">${sugg.map(([id,v])=>`<div class="item"><div><div class="t">${esc(v.name)}</div><div class="s">${esc(v.inst||'')} · in ${v.n} kept articles</div></div><button class="btn small" data-action="follow" data-id="${esc(id)}" data-name="${esc(v.name)}" data-inst="${esc(v.inst)}">Follow</button></div>`).join('')}</div></div>`:''}`; }
+
+/* ---------- settings & topics ---------- */
+function renderSettings(){ const s=S.settings; return `<h2 class="page">Topics</h2><div class="list">${S.topics.map(t=>`<div class="item"><div style="min-width:0"><div class="t">${esc(t.name)} ${t.kind==='news'?'<span class="pill">news</span>':''}</div><div class="s">${esc((t.kind==='news'?t.qNews:t.qOpenAlex)||'')}</div>${(t.mute&&t.mute.length)||(t.muteVenues&&t.muteVenues.length)?`<div class="s">Muted: ${esc([...(t.mute||[]),...(t.muteVenues||[]).map(v=>'journal: '+v)].join(', '))}</div>`:''}</div><div class="row" style="flex-wrap:nowrap"><button class="switch" role="switch" aria-checked="${!!t.enabled}" data-action="toggleTopic" data-id="${t.id}" aria-label="Enable ${esc(t.name)}"></button><button class="btn small" data-action="editTopic" data-id="${t.id}">Edit</button></div></div>`).join('')}</div>
+  <div class="row" style="margin:12px 0 22px"><button class="btn primary" data-action="editTopic" data-id="">Add a topic</button><button class="btn ghost small" data-action="exportTopics">Share topics (copy JSON)</button><button class="btn ghost small" data-action="importTopics">Import topics</button></div>
+  <h2 class="page">Settings</h2><div class="stack">
+  <div class="card settings"><h3>Feed</h3><div class="grid2"><div><label>Look back (days)</label><input id="sLookback" inputmode="numeric" value="${s.lookbackDays}"></div><div><label>Articles per topic</label><input id="sPer" inputmode="numeric" value="${s.perTopic}"></div></div><div class="toggle" style="margin-top:12px"><div><b>English-language articles only</b><div class="hint" style="margin-top:2px">Applies to OpenAlex searches.</div></div><button class="switch" role="switch" aria-checked="${s.englishOnly!==false}" id="sEng" aria-label="English only"></button></div></div>
+  <div class="card settings"><h3>Your email</h3><p>Used only as the polite-pool contact for OpenAlex and Unpaywall requests, and for the "Email to me" share option.</p><label>Email</label><input id="sEmail" type="email" value="${esc(s.email)}" placeholder="you@example.com"></div>
+  <div class="card settings"><h3>OpenAlex API key <span class="pill">recommended</span></h3><p>Free. Without it you share a small daily search budget with everyone on your network. <a href="https://openalex.org/settings/api" target="_blank" rel="noopener">Get a key</a>, then paste it here.</p><label>Key</label><input id="sOaKey" value="${esc(s.openalexKey)}" autocomplete="off" placeholder="paste key"></div>
+  <div class="card settings"><h3>Claude API key <span class="pill">optional</span></h3><p>Without a key, "Summarize" opens Claude with the article pre-loaded (uses your Claude subscription). With a key, summaries are written inside the app and saved, and the relevance filter can screen each topic using your topic descriptions and off-target flags. The key is stored only on this device. <a href="https://console.anthropic.com/" target="_blank" rel="noopener">Console</a></p><label>Key</label><input id="sAnKey" value="${esc(s.anthropicKey)}" autocomplete="off" placeholder="sk-ant-…"><label>Model</label><input id="sModel" value="${esc(s.model)}"><div class="toggle"><div><b>Relevance filter</b><div class="hint" style="margin-top:2px">Screen new results against each topic description. Filtered items stay visible under "filtered out".</div></div><button class="switch" role="switch" aria-checked="${!!s.relevance}" id="sRel" aria-label="Relevance filter"></button></div></div>
+  <div class="card settings"><h3>News relay</h3><p>News sites block direct requests from a browser, so the India news lane needs a small relay (the worker.js file that ships with this app) hosted on a free Cloudflare account. Paste its URL here.</p><label>Relay URL</label><input id="sProxy" value="${esc(s.proxyUrl)}" placeholder="https://litradar-news.yourname.workers.dev"></div>
+  <div class="row"><button class="btn primary" data-action="saveSettings">Save settings</button></div>
+  <div class="card settings"><h3>Backup</h3><p>Everything lives in this browser. Export a backup before clearing site data or moving phones.</p><div class="row" style="margin-top:10px"><button class="btn small" data-action="exportAll">Export everything</button><button class="btn small ghost" data-action="importAll">Import backup</button><button class="btn small ghost" data-action="resetTopics">Restore default topics</button></div></div>
+  <div class="card settings"><h3>Sources</h3><p>Journal articles: <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a> (filtered to journal articles). Education research with a peer-review flag: <a href="https://eric.ed.gov" target="_blank" rel="noopener">ERIC</a>. Free full text: <a href="https://unpaywall.org" target="_blank" rel="noopener">Unpaywall</a>. News: Google News via your relay. "Journal article" is a strong proxy for peer review, not a guarantee; check the venue for anything you plan to cite.</p></div>
+  </div>`; }
+function saveSettings(){ const s=S.settings; s.lookbackDays=Math.max(1,Number($('#sLookback').value)||14); s.perTopic=Math.min(50,Math.max(5,Number($('#sPer').value)||25)); s.email=$('#sEmail').value.trim(); s.openalexKey=$('#sOaKey').value.trim(); s.anthropicKey=$('#sAnKey').value.trim(); s.model=$('#sModel').value.trim()||'claude-haiku-4-5'; s.relevance=$('#sRel').getAttribute('aria-checked')==='true'; s.englishOnly=$('#sEng').getAttribute('aria-checked')==='true'; s.proxyUrl=$('#sProxy').value.trim(); save(); toast('Settings saved'); render(); }
+function topicEditor(t){ const isNew=!t; t=t||{id:'',name:'',kind:'scholar',enabled:true,scope:'ta',eric:true,fieldFilter:true,description:'',qOpenAlex:'',qEric:'',qNews:'',mute:[],muteVenues:[],offTarget:[]};
+  openSheet(isNew?'New topic':'Edit topic',`<label style="margin-top:0">Name</label><input id="tName" value="${esc(t.name)}"><label>Type</label><select id="tKind"><option value="scholar" ${t.kind==='scholar'?'selected':''}>Peer-reviewed research</option><option value="news" ${t.kind==='news'?'selected':''}>News</option></select>
+  <label>What belongs here (and what doesn't) <small>— used by the relevance filter and by "Summarize"</small></label><textarea id="tDesc">${esc(t.description)}</textarea>
+  <div id="tScholar" ${t.kind==='news'?'hidden':''}><label>OpenAlex query <small>— quotes for phrases, OR / AND between them</small></label><textarea id="tQ" style="min-height:70px;font-family:var(--mono);font-size:12.5px">${esc(t.qOpenAlex)}</textarea><label>Search scope</label><select id="tScope"><option value="ta" ${t.scope!=='full'?'selected':''}>Title, abstract and keywords (tighter)</option><option value="full" ${t.scope==='full'?'selected':''}>Full text where available (broader)</option></select>
+  <div class="toggle" style="margin-top:8px"><div><b>Social sciences & business only</b><div class="hint" style="margin-top:2px">Keeps OpenAlex results to the Social Sciences and Business/Management fields. Recommended: "MBA" otherwise matches a chemistry reagent.</div></div><button class="switch" role="switch" aria-checked="${t.fieldFilter!==false}" id="tField" aria-label="Field filter"></button></div><div class="toggle"><div><b>Also search ERIC</b><div class="hint" style="margin-top:2px">Education research with an explicit peer-review flag.</div></div><button class="switch" role="switch" aria-checked="${!!t.eric}" id="tEric" aria-label="Search ERIC"></button></div><label>ERIC query</label><textarea id="tQE" style="min-height:60px;font-family:var(--mono);font-size:12.5px">${esc(t.qEric)}</textarea></div>
+  <div id="tNews" ${t.kind!=='news'?'hidden':''}><label>Google News query</label><textarea id="tQN" style="min-height:60px;font-family:var(--mono);font-size:12.5px">${esc(t.qNews||'')}</textarea></div>
+  <label>Mute words <small>— hide anything whose title or abstract contains these (comma separated)</small></label><input id="tMute" value="${esc((t.mute||[]).join(', '))}"><label>Mute journals <small>— hide articles whose journal name contains these, e.g. teaching-case journals</small></label><input id="tMuteV" value="${esc((t.muteVenues||[]).join(', '))}">
+  ${t.offTarget&&t.offTarget.length?`<label>Off-target examples you flagged (${t.offTarget.length})</label><div class="hint">${t.offTarget.slice(-5).map(o=>'· '+esc(o.title)).join('<br>')}</div>`:''}
+  <div class="row" style="margin-top:18px"><button class="btn primary" data-action="saveTopic" data-id="${esc(t.id)}">Save topic</button>${isNew?'':`<button class="btn ghost" data-action="deleteTopic" data-id="${esc(t.id)}">Delete</button>`}</div>`);
+  $('#tKind').addEventListener('change',e=>{ $('#tScholar').hidden=e.target.value==='news'; $('#tNews').hidden=e.target.value!=='news'; }); }
+function saveTopic(id){ const t=id?topicById(id):{id:uid(),enabled:true,offTarget:[]}; t.name=$('#tName').value.trim()||'Untitled topic'; t.kind=$('#tKind').value; t.description=$('#tDesc').value.trim(); t.qOpenAlex=$('#tQ').value.trim(); t.scope=$('#tScope').value; t.eric=$('#tEric').getAttribute('aria-checked')==='true'; t.fieldFilter=$('#tField').getAttribute('aria-checked')==='true'; t.qEric=$('#tQE').value.trim(); t.muteVenues=$('#tMuteV').value.split(',').map(s=>s.trim()).filter(Boolean); t.qNews=$('#tQN').value.trim(); t.mute=$('#tMute').value.split(',').map(s=>s.trim()).filter(Boolean); if(!id) S.topics.push(t); save(); closeSheet(); toast('Topic saved'); render(); }
+
+/* ---------- detail sheet ---------- */
+function openSheet(title,html){ $('#sheetTitle').textContent=title; $('#sheetBody').innerHTML=html; const sh=$('#sheet'),sc=$('#scrim'); sh.hidden=false; sc.hidden=false; requestAnimationFrame(()=>{sh.classList.add('show');sc.classList.add('show');}); $('#sheetBody').scrollTop=0; }
+function closeSheet(){ const sh=$('#sheet'),sc=$('#scrim'); sh.classList.remove('show'); sc.classList.remove('show'); setTimeout(()=>{sh.hidden=true;sc.hidden=true;},220); }
+function detail(key){ const w=findWork(key); if(!w) return; const t=workTopic(w); const st=libStatus(key); const sum=S.summaries[key]; const lib=S.library[key];
+  openSheet(w.source==='news'?'News':'Article',`<div class="card-top">${badges(w,t,false)}</div><h1>${esc(w.title)}</h1><div class="meta">${esc(fmtAuthors(w.authors,30))}</div><div class="meta">${w.venue?'<b>'+esc(w.venue)+'</b>':''}${w.date?' · '+esc(w.date):w.year?' · '+esc(w.year):''}${w.citedBy!=null?' · '+w.citedBy+' citations':''}${w.topics&&w.topics.length?'<br>'+esc(w.topics.join(' · ')):''}</div>
+  ${w.authors.some(a=>a.id)?`<div class="authors">${w.authors.filter(a=>a.id).slice(0,12).map(a=>{const f=S.authors.some(x=>x.id===a.id);return `<button class="${f?'f':''}" data-action="${f?'unfollow':'follow'}" data-id="${esc(a.id)}" data-name="${esc(a.name)}" data-inst="${esc(a.inst)}">${f?'✓ ':'+ '}${esc(a.name)}</button>`;}).join('')}</div>`:''}
+  ${w.abstract?`<p class="abs">${esc(w.abstract)}</p>`:'<p class="abs empty">No abstract in the index.</p>'}
+  ${sum?`<h3 style="font-size:14px;margin:16px 0 6px">Summary</h3><div class="summary">${esc(sum)}</div>`:''}
+  <div class="actions" style="margin-top:14px"><button class="act ${st==='kept'?'on':''}" data-action="keep" data-key="${esc(key)}">${ICON.keep}${st==='kept'?'Kept':'Keep'}</button>${st?`<button class="act" data-action="unlib" data-key="${esc(key)}">${ICON.undo}Back to feed</button>`:`<button class="act" data-action="dismiss" data-key="${esc(key)}">${ICON.x}Dismiss</button><button class="act" data-action="offtarget" data-key="${esc(key)}">${ICON.flag}Off-target</button>`}<button class="act" data-action="share" data-key="${esc(key)}">${ICON.share}Share</button><button class="act" data-action="summarize" data-key="${esc(key)}">${ICON.spark}Summarize</button>${w.doi?`<button class="act" data-action="pdf" data-key="${esc(key)}">${ICON.pdf}Free PDF?</button>`:''}<a class="act" href="${esc(w.url)}" target="_blank" rel="noopener">${ICON.open}Open</a></div>
+  ${w.source!=='news'?`<h3 style="font-size:14px;margin:16px 0 6px">Citation (APA 7)</h3><div class="cite">${apa(w)}</div><div class="row" style="margin-top:8px"><button class="btn small" data-action="copyCite" data-key="${esc(key)}">Copy citation</button>${w.doi?`<button class="btn small ghost" data-action="copyText" data-text="${esc(w.doi)}">Copy DOI</button>`:''}</div>`:''}
+  ${lib?`<label>Your note</label><textarea id="noteBox" data-key="${esc(key)}" placeholder="Why this matters, where it fits…">${esc(lib.note||'')}</textarea>`:''}`); }
+function offTargetSheet(key){ const w=findWork(key); const t=workTopic(w); if(!w) return; openSheet('Off-target',`<p style="margin-top:0">Flagging <b>${esc(w.title)}</b> as off-target for <b>${esc(t?t.name:'this topic')}</b>. It will be hidden, and the relevance filter will use it as an example of what to exclude.</p><label>Optional: words to mute for this topic <small>(comma separated)</small></label><input id="otMute" placeholder="e.g. medical school, K-12"><div class="row" style="margin-top:16px"><button class="btn primary" data-action="offtargetConfirm" data-key="${esc(key)}">Flag it</button><button class="btn ghost" data-action="closeSheet">Cancel</button></div>`); }
+async function summarize(key){ const w=findWork(key); if(!w) return; const t=workTopic(w); if(S.summaries[key]){ detail(key); return; }
+  if(!S.settings.anthropicKey){ const url='https://claude.ai/new?q='+encodeURIComponent(summaryPrompt(w,t)); window.open(url,'_blank','noopener'); toast('Opening Claude with the article…'); return; }
+  toast('Asking Claude…',6000); try{ const out=await claude(summaryPrompt(w,t),{maxTokens:900}); S.summaries[key]=out.trim(); save(); detail(key); }catch(e){ toast(e.message,5000); } }
+
+/* ---------- events ---------- */
+document.addEventListener('click',async e=>{ const el=e.target.closest('[data-action],[data-view],.switch'); if(!el) return;
+  if(el.dataset.view){ S.ui.view=el.dataset.view; save(); render(); window.scrollTo(0,0); return; }
+  if(el.classList.contains('switch')&&!el.dataset.action){ el.setAttribute('aria-checked',el.getAttribute('aria-checked')!=='true'); return; }
+  const a=el.dataset.action, key=el.dataset.key, id=el.dataset.id; const w=key?findWork(key):null;
+  switch(a){
+    case 'refresh': refresh(); break;
+    case 'filter': S.ui.filter=id; save(); render(); break;
+    case 'detail': detail(key); break;
+    case 'closeSheet': closeSheet(); break;
+    case 'keep': if(!w) break; if(libStatus(key)==='kept'){ setLib(w,null); toast('Removed from library'); } else { setLib(w,'kept',workTopic(w)&&workTopic(w).id); toast('Kept'); } if(!$('#sheet').hidden) detail(key); render(); break;
+    case 'dismiss': if(!w) break; setLib(w,'dismissed',workTopic(w)&&workTopic(w).id); closeSheet(); toast('Dismissed'); render(); break;
+    case 'unlib': if(!w) break; setLib(w,null); closeSheet(); toast('Back in the feed'); render(); break;
+    case 'offtarget': offTargetSheet(key); break;
+    case 'offtargetConfirm': { if(!w) break; const t=workTopic(w); setLib(w,'offtopic',t&&t.id); if(t){ t.offTarget=t.offTarget||[]; t.offTarget.push({title:w.title,at:Date.now()}); if(t.offTarget.length>40) t.offTarget.shift(); const m=$('#otMute').value.split(',').map(s=>s.trim()).filter(Boolean); t.mute=[...new Set([...(t.mute||[]),...m])]; } save(); closeSheet(); toast('Noted for '+(t?t.name:'this topic')); render(); break; }
+    case 'share': if(w) share(w); break;
+    case 'summarize': summarize(key); break;
+    case 'pdf': { if(!w||!w.doi) break; toast('Checking Unpaywall…'); try{ const u=await unpaywall(w.doi); if(u){ openSheet('Free copy found',`<p style="margin-top:0">Unpaywall lists a legal open-access copy of <b>${esc(w.title)}</b>.</p><a class="btn primary" href="${esc(u)}" target="_blank" rel="noopener">Open the free copy</a>`); } else toast('No free copy found — open the DOI through your library',4000); }catch(err){ toast(err.message,4000); } break; }
+    case 'copyCite': if(w){ const tmp=document.createElement('div'); tmp.innerHTML=apa(w); copy(tmp.textContent); } break;
+    case 'copyText': copy(el.dataset.text||''); break;
+    case 'copyRefs': { const refs=Object.values(S.library).filter(x=>x.status==='kept').map(x=>{const d=document.createElement('div'); d.innerHTML=apa(x.work); return d.textContent;}).sort(); copy(refs.join('\n\n')); break; }
+    case 'exportLib': download('litradar-library.json',JSON.stringify(Object.values(S.library),null,2)); break;
+    case 'exploreTopic': explore.topicId=id; explore.query=''; S.ui.view='explore'; save(); render(); break;
+    case 'exSearch': exploreSearch(false); break;
+    case 'exMore': exploreSearch(true); break;
+    case 'libTab': S.ui.libTab=id; save(); render(); break;
+    case 'auSearch': { authorUI.q=$('#auQ').value.trim(); if(!authorUI.q) break; authorUI.busy=true; render(); try{ authorUI.results=await searchAuthors(authorUI.q); }catch(err){ toast(err.message,4000); } authorUI.busy=false; render(); break; }
+    case 'follow': if(!S.authors.some(x=>x.id===id)){ S.authors.push({id,name:el.dataset.name,inst:el.dataset.inst,at:Date.now()}); save(); toast('Following '+el.dataset.name); } if(!$('#sheet').hidden){ const k=$('#sheetBody').querySelector('[data-action="keep"]'); if(k) detail(k.dataset.key); } render(); break;
+    case 'unfollow': S.authors=S.authors.filter(x=>x.id!==id); S.feed.authors.items=(S.feed.authors.items||[]).filter(x=>x.byAuthor!==id); save(); if(!$('#sheet').hidden){ const k=$('#sheetBody').querySelector('[data-action="keep"]'); if(k) detail(k.dataset.key); } render(); break;
+    case 'toggleTopic': { const t=topicById(id); t.enabled=!t.enabled; save(); render(); break; }
+    case 'editTopic': topicEditor(id?topicById(id):null); break;
+    case 'saveTopic': saveTopic(id); break;
+    case 'deleteTopic': { S.topics=S.topics.filter(t=>t.id!==id); delete S.feed.topics[id]; save(); closeSheet(); render(); break; }
+    case 'saveSettings': saveSettings(); break;
+    case 'exportTopics': copy(JSON.stringify(S.topics.map(t=>Object.assign({},t,{offTarget:[]})),null,2)); toast('Topics copied as JSON — paste to a classmate'); break;
+    case 'importTopics': openSheet('Import topics',`<p class="hint" style="margin-top:0">Paste the JSON a classmate shared. Topics with the same name are replaced; others are added.</p><textarea id="impBox" style="min-height:160px;font-family:var(--mono);font-size:12px"></textarea><div class="row" style="margin-top:12px"><button class="btn primary" data-action="importTopicsConfirm">Import</button></div>`); break;
+    case 'importTopicsConfirm': { try{ const arr=JSON.parse($('#impBox').value); if(!Array.isArray(arr)) throw new Error('Expected a list'); for(const t of arr){ if(!t.name) continue; const ex=S.topics.find(x=>x.name.toLowerCase()===t.name.toLowerCase()); const nt=Object.assign({id:ex?ex.id:uid(),enabled:true,mute:[],offTarget:[],kind:'scholar',scope:'ta',eric:true},t); if(ex) Object.assign(ex,nt); else S.topics.push(nt); } save(); closeSheet(); toast('Topics imported'); render(); }catch(err){ toast('Could not read that JSON: '+err.message,4000); } break; }
+    case 'exportAll': download('litradar-backup-'+today()+'.json',JSON.stringify(S,null,2)); break;
+    case 'importAll': openSheet('Import backup',`<p class="hint" style="margin-top:0">Choose a backup file exported from Lit Radar. This replaces everything on this device.</p><input type="file" id="impFile" accept="application/json"><div class="row" style="margin-top:12px"><button class="btn primary" data-action="importAllConfirm">Replace with backup</button></div>`); break;
+    case 'importAllConfirm': { const f=$('#impFile').files[0]; if(!f){ toast('Choose a file first'); break; } try{ const txt=await f.text(); const s=JSON.parse(txt); if(!s.topics) throw new Error('not a Lit Radar backup'); localStorage.setItem(KEY,JSON.stringify(s)); S=load(); closeSheet(); toast('Backup restored'); render(); }catch(err){ toast('Could not import: '+err.message,4000); } break; }
+    case 'resetTopics': { const d=defaultTopics(); for(const t of d){ const ex=S.topics.find(x=>x.id===t.id); if(ex) Object.assign(ex,t,{mute:ex.mute,offTarget:ex.offTarget,enabled:ex.enabled}); else S.topics.push(t); } save(); toast('Default topics restored'); render(); break; }
+  } });
+document.addEventListener('input',e=>{ if(e.target.id==='noteBox'){ const en=S.library[e.target.dataset.key]; if(en){ en.note=e.target.value; save(); } } });
+$('#scrim').addEventListener('click',closeSheet);
+function download(name,text){ const b=new Blob([text],{type:'application/json'}); const u=URL.createObjectURL(b); const a=document.createElement('a'); a.href=u; a.download=name; document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(u);a.remove();},500); }
+
+/* ---------- boot ---------- */
+render();
+if(S.feed.lastRefreshAt) setStatus('Updated '+rel(S.feed.lastRefreshAt)); else setStatus('Tap Refresh to pull the latest articles');
+if(S.feed.lastRefreshAt&&Date.now()-S.feed.lastRefreshAt>6*36e5) refresh();
+document.addEventListener('visibilitychange',()=>{ if(!document.hidden&&S.feed.lastRefreshAt&&Date.now()-S.feed.lastRefreshAt>6*36e5) refresh(); });
+</script>
+</body>
+</html>
